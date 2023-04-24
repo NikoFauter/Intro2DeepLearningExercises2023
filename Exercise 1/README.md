@@ -1,15 +1,15 @@
-# I2DL-Exercises2022
+# I2DL-Exercises2023
 
 
 ## Git Enviroment Setup
 
-We will use [Git](https://git-scm.com/) to distribute and hand in exercises. You can either [use Git directly from the command line](./github-git-cheat-sheet.pdf) or use a [**G**raphical **U**ser **I**nterface (GUI)](https://git-scm.com/downloads/guis) to use it. If you have never used Git before, we recommend that you work through one of the introductions available online.
+We will use [Git](https://git-scm.com/) to distribute the exercises. You can either [use Git directly from the command line](./github-git-cheat-sheet.pdf) or use a [**G**raphical **U**ser **I**nterface (GUI)](https://git-scm.com/downloads/guis) to use it. If you have never used Git before, we recommend that you work through one of the introductions available online.
 
 ### Forking the Repository
 
-Every student will work within their fork of the main repository, where they can upload their results. Follow these steps to set up your fork:
+Every student will work within their fork of the main repository. Follow these steps to set up your fork:
 
-1. Navigate to the [main exercise repository.](https://gitlab.uni-ulm.de/intro2deeplearning/i2dl_2022/i2dl-exercises2022)
+1. Navigate to the [main exercise repository.](https://gitlab.uni-ulm.de/intro2deeplearning/i2dl_2023/exercises)
 
 2. Click on the fork button on the top right.
 ![Forking](./Images/GitLabAccess4.PNG)
@@ -24,18 +24,12 @@ Every student will work within their fork of the main repository, where they can
 To synchronize your fork with the main exercise repository, once new exercises are uploaded, you need to add it as a remote upstream repository to your fork.
 This can be done by executing the following in the command line in your fork.
 ```
-git remote add upstream git@gitlab.uni-ulm.de:intro2deeplearning/i2dl_2022/i2dl-exercises2022.git
+git remote add upstream git@gitlab.uni-ulm.de:intro2deeplearning/i2dl_2023/exercises.git
 ```
 Once this is set up, you can synchronize the fork and main repositories by executing the command.
 ```
 git pull upstream main to your personal fork 
 ```
-
-### Hand In Results
-
-To hand in results, you push your work to your fork and clearly designate it as your solution. 
-You also have to add Julia and Luzius as Developers to your fork for us to see your work.
-
 
 ## Exercise Envirement Setup
 
